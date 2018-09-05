@@ -12,7 +12,7 @@ public class UserServiceImpl implements UserService {
     @Autowired  
     private UserDao userDao;  
 
-    public User selectUserById(Integer userId) {  
+    public User selectUserById(String userId) {  
         return userDao.selectUserById(userId);  
     }  
 }

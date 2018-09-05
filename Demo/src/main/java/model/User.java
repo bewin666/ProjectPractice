@@ -2,15 +2,15 @@ package model;
 
 public class User {
     
-    private Integer userId;
+    private String userId;
     private String userName;
-    private String userPassword;
+    private String password;
 
-    public Integer getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
@@ -23,11 +23,11 @@ public class User {
     }
 
     public String getUserPassword() {
-        return userPassword;
+        return password;
     }
 
     public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
+        this.password = userPassword;
     }
 
 }
