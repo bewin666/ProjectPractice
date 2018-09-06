@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <!-- 类的全限定名 -->
 <mapper namespace="cn.com.project.mapper.UserMapper">
-    <insert id="insertUser" keyProperty="userId" useGeneratedKeys="true" parameterType="cn.com.bosssoft.model.User">
+    <insert id="insertUser" keyProperty="userId" useGeneratedKeys="true" parameterType="cn.com.project.model.User">
         INSERT INTO user(username,gender,address) values (#{username},#{gender},#{address})
     </insert>
     <!-- 自定义返回结果集 -->

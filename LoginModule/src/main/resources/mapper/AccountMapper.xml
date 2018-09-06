@@ -3,7 +3,7 @@
 <!-- 类的全限定名 -->
 <mapper namespace="cn.com.project.mapper.AccountMapper">
 
-    <insert id="insertAccount" keyProperty="accountId" useGeneratedKeys="true" parameterType="cn.com.bosssoft.model.Account">
+    <insert id="insertAccount" keyProperty="accountId" useGeneratedKeys="true" parameterType="cn.com.project.model.Account">
       INSERT INTO account(password,userid) values(#{password},#{userId})
     </insert>
     <!-- 自定义返回结果集 -->
