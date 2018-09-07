@@ -1,6 +1,6 @@
 package cn.com.project.controller;
 
-import cn.com.project.model.Account;
+import cn.com.project.model.User;
 import cn.com.project.server.AccountServer;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +15,8 @@ public class LoginController {
     private AccountServer accountServer;
 
     @RequestMapping("/login")
-    public String login(Account account) {
-        boolean loginResult = accountServer.loginCheck(account);
-        if(loginResult) {
-            return "redirect: ../user_list.jsp";
-        }
+    public String login(User user) {
+        
         return "redirect: error.jsp";
     }
 

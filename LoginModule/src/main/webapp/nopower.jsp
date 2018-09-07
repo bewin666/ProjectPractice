@@ -20,7 +20,7 @@
                 }
                 else {
                     window.clearInterval(timer);
-                    location.href = "login.html";
+                    location.href = "index.html";
                 }
             }
 
@@ -28,15 +28,15 @@
             function resetTimer() {
                 if (timer != null && timer != undefined) {
                     window.clearInterval(timer);
-                    location.href = "login.html";
+                    location.href = "index.html";
                 }
             }
         </script> 
     </head>
-    <body class="error_page" onload="startTimes();">
+    <body class="error_power_page" onload="startTimes();">
         <h1 id="error">
-	        遇到错误，&nbsp;<span id="secondes">5</span>&nbsp;秒后将自动跳转，立即跳转请点击&nbsp;
-            <a  href="javascript:resetTimer();">返回</a>
+	        您无权访问此页面，&nbsp;<span id="secondes">5</span>&nbsp;秒后将自动跳转，立即跳转请点击&nbsp;
+            <a class="index.html" href="javascript:resetTimer();">返回</a>
         </h1>
     </body>
 </html>
