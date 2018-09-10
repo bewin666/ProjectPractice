@@ -8,7 +8,7 @@
     </head>
     <body class="index">
         <div class="login_box">
-        <form method="post" action="/LoginModule/user/login">
+        <form method="post" action="/LoginModule/user/login.do">
             <table>
                 <tr>
                     <td class="login_info">账号：</td>

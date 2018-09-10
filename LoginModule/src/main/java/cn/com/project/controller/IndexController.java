@@ -8,21 +8,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/user")
-public class LoginController {
+public class IndexController {
 
     @Autowired
     private AccountServer accountServer;
 
     @RequestMapping("/login.do")
     public String login(User user) {
-    	if(user == null){
-    		System.out.println("user is null.");
-    	} else {
-    		System.out.println(user.toString());
-    	}
-        
-        return "error";
+    	
+        return "login";
     }
 
     

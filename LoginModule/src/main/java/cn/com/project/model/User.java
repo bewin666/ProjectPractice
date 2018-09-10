@@ -62,7 +62,12 @@ public class User {
     public void setAccount(Account account) {
         this.account = account;
     }
-
+    
+    @Override
+    public String toString() {
+    	return userId+"---"+password;
+    }
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
