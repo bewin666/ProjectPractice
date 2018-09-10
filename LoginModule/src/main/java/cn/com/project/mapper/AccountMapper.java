@@ -11,6 +11,6 @@ public interface AccountMapper {
     */
     void insertAccount(Account account);
 
-    Account selectAccountById(Integer accountId);
+    Account selectAccountByName(String LoginName);
 
 }

@@ -30,10 +30,15 @@ public class AccountServerImpl implements AccountServer {
     }
 
     public Boolean loginCheck(Account checkAccount) {
-        Account account = accountMapper.selectAccountById(checkAccount.getAccountId());
-        if(checkAccount.equals(account)) {
-            return true;
-        }
-        return false;
+    	try{
+    		Account account = accountMapper.selectAccountByName(checkAccount.getLoginName());
+            if(checkAccount.getLoginPasswd().equals(account.getLoginPasswd())) {
+                return true;
+            }
+            return false;
+    	}catch(Exception e){
+    		return false;
+    	}
+        
     }
 }

@@ -12,12 +12,12 @@
             <table>
                 <tr>
                     <td class="login_info">账号：</td>
-                    <td colspan="2"><input id="userId" type="text" class="width150" placeholder="请输入账号"/></td>
+                    <td colspan="2"><input id="userId" name="userId" type="text" class="width150" placeholder="请输入账号"/></td>
                     <td class="login_error_info"><span class="required">30长度的字母、数字和下划线</span></td>
                 </tr>
                 <tr>
                     <td class="login_info">密码：</td>
-                    <td colspan="2"><input id="password" type="password" class="width150" /></td>
+                    <td colspan="2"><input id="password" name="password" type="password" class="width150" /></td>
                     <td><span class="required">30长度的字母、数字和下划线</span></td>
                 </tr>
                 <tr>

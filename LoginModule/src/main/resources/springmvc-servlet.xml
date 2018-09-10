@@ -28,7 +28,7 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-	<mvc:resources mapping="/*.do" location="/WEB-INF/"/>
+	<mvc:resources mapping="/*.do" location="/"/>
 
     <!-- 自动扫描包，实现支持注解的IOC -->
     <context:component-scan base-package="cn.com.project" />
@@ -36,7 +36,7 @@
         <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
         	<property name="order" value="44" />
         	<property name="contentType" value="text/html"/>
-            <property name="prefix" value="/WEB-INF/"/> 
+            <property name="prefix" value=""/> 
             <property name="suffix" value=".jsp"/> 
         </bean> 
     
@@ -52,7 +52,7 @@
         <!--指定视图渲染类 -->
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
         <!--自动添加到路径中的前缀 -->
-        <property name="prefix" value="/WEB-INF/" />
+        <property name="prefix" value="" />
         <!--自动添加到路径中的后缀 -->
         <property name="suffix" value=".jsp" />
         <!--设置所有视图的内容类型，如果视图本身设置内容类型视图类可以忽略 -->
