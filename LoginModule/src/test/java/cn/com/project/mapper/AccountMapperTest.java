@@ -20,8 +20,8 @@ public class AccountMapperTest {
         AccountMapper accountMapper = context.getBean(AccountMapper.class);
         Account account = new Account();
         account.setAccountId(1);
-        account.setPassword("123");
-        account.setUserId(1);
+//        account.setPassword("123");
+//        account.setUserId(1);
         accountMapper.insertAccount(account);
     }
 }

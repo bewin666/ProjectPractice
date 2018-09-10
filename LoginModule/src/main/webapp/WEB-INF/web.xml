@@ -8,7 +8,20 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
-
+	
+	
+	<!-- 加载mybaits配置 -->
+  <!--  <context-param>-->
+    <!-- <description>SpringConfigure</description> 
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:mybatis-config.xml</param-value>
+  </context-param>
+   <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>-->
+  
+  
+	
   <context-param>
     <description>SpringConfigure</description>
     <param-name>contextConfigLocation</param-name>

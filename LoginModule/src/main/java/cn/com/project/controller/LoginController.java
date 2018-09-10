@@ -16,6 +16,8 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String login(Account account) {
+    	System.out.println("***");
+    	System.out.println(account.getAccountId());
         boolean loginResult = accountServer.loginCheck(account);
         if(loginResult) {
             return "redirect: ../user_list.jsp";

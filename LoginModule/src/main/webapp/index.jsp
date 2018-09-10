@@ -14,7 +14,7 @@
         <input type="text" id="inputAccount" name="accountId" class="form-control" placeholder="Account" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
-        <input type="submit" id="submit" class="btn btn-lg btn-primary btn-block" onclick="return check()" /> <br />
+        <input type="submit" id="submit" class="btn btn-lg btn-primary btn-block" /> <br />
         <p class="mt-5 mb-3 text-muted">合伙人培训部周作业</p>
         <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
     </form>

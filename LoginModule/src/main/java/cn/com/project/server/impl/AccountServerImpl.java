@@ -22,7 +22,7 @@ public class AccountServerImpl implements AccountServer {
     public void insertAccount(Account account, User user) {
         try {
             userMapper.insertUser(user);
-            account.setUserId(user.getUserId());
+            //account.setUserId(user.getUserId());
             accountMapper.insertAccount(account);
         } catch (Exception e) {
             e.printStackTrace();
@@ -30,8 +30,9 @@ public class AccountServerImpl implements AccountServer {
     }
 
     public Boolean loginCheck(Account checkAccount) {
+    	System.out.println("servletimpl"+checkAccount.getAccountId());
         Account account = accountMapper.selectAccountById(checkAccount.getAccountId());
-        if(checkAccount.equals(account)) {
+        if(account!=null) {
             return true;
         }
         return false;
