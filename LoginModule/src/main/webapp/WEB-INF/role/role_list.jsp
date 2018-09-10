@@ -22,16 +22,16 @@
         <!--导航区域开始-->
         <div id="navi">                        
             <ul id="menu">
-                <li><a href="../index.html" class="index_off"></a></li>
-                <li><a href="../role/role_list.html" class="role_on"></a></li>
-                <li><a href="../admin/admin_list.html" class="admin_off"></a></li>
-                <li><a href="../fee/fee_list.html" class="fee_off"></a></li>
-                <li><a href="../account/account_list.html" class="account_off"></a></li>
-                <li><a href="../service/service_list.html" class="service_off"></a></li>
-                <li><a href="../bill/bill_list.html" class="bill_off"></a></li>
-                <li><a href="../report/report_list.html" class="report_off"></a></li>
-                <li><a href="../user/user_info.html" class="information_off"></a></li>
-                <li><a href="../user/user_modi_pwd.html" class="password_off"></a></li>
+                <li><a href="../index.jsp" class="index_off"></a></li>
+                <li><a href="../role/role_list.jsp" class="role_on"></a></li>
+                <li><a href="../admin/admin_list.jsp" class="admin_off"></a></li>
+                <li><a href="../fee/fee_list.jsp" class="fee_off"></a></li>
+                <li><a href="../account/account_list.jsp" class="account_off"></a></li>
+                <li><a href="../service/service_list.jsp" class="service_off"></a></li>
+                <li><a href="../bill/bill_list.jsp" class="bill_off"></a></li>
+                <li><a href="../report/report_list.jsp" class="report_off"></a></li>
+                <li><a href="../user/user_info.jsp" class="information_off"></a></li>
+                <li><a href="../user/user_modi_pwd.jsp" class="password_off"></a></li>
             </ul>            
         </div>
         <!--导航区域结束-->
@@ -40,7 +40,7 @@
             <form action="" method="">
                 <!--查询-->
                 <div class="search_add">
-                    <input type="button" value="增加" class="btn_add" onclick="location.href='role_add.html';" />
+                    <input type="button" value="增加" class="btn_add" onclick="location.href='role_add.jsp';" />
                 </div>  
                 <!--删除的操作提示-->
                 <div id="operate_result_info" class="operate_success">
@@ -61,7 +61,7 @@
                             <td>方红芬</td>
                             <td>角色管理、管理员管理、资费管理、账务账号、业务账号、账单、报表</td>
                             <td>
-                                <input type="button" value="修改" class="btn_modify" onclick="location.href='role_modi.html';"/>
+                                <input type="button" value="修改" class="btn_modify" onclick="location.href='role_modi.jsp';"/>
                                 <input type="button" value="删除" class="btn_delete" onclick="deleteRole();" />
                             </td>
                         </tr>

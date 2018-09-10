@@ -16,16 +16,16 @@
         <!--导航区域开始-->
         <div id="navi">                        
             <ul id="menu">
-                <li><a href="../index.html" class="index_off"></a></li>
-                <li><a href="../role/role_list.html" class="role_off"></a></li>
-                <li><a href="../admin/admin_list.html" class="admin_off"></a></li>
-                <li><a href="../fee/fee_list.html" class="fee_off"></a></li>
-                <li><a href="../account/account_list.html" class="account_off"></a></li>
-                <li><a href="../service/service_list.html" class="service_off"></a></li>
-                <li><a href="../bill/bill_list.html" class="bill_on"></a></li>
-                <li><a href="../report/report_list.html" class="report_off"></a></li>
-                <li><a href="../user/user_info.html" class="information_off"></a></li>
-                <li><a href="../user/user_modi_pwd.html" class="password_off"></a></li>
+                <li><a href="../index.jsp" class="index_off"></a></li>
+                <li><a href="../role/role_list.jsp" class="role_off"></a></li>
+                <li><a href="../admin/admin_list.jsp" class="admin_off"></a></li>
+                <li><a href="../fee/fee_list.jsp" class="fee_off"></a></li>
+                <li><a href="../account/account_list.jsp" class="account_off"></a></li>
+                <li><a href="../service/service_list.jsp" class="service_off"></a></li>
+                <li><a href="../bill/bill_list.jsp" class="bill_on"></a></li>
+                <li><a href="../report/report_list.jsp" class="report_off"></a></li>
+                <li><a href="../user/user_info.jsp" class="information_off"></a></li>
+                <li><a href="../user/user_modi_pwd.jsp" class="password_off"></a></li>
             </ul>            
         </div>
         <!--导航区域结束-->
@@ -39,7 +39,7 @@
                     <div>姓名：<span class="readonly width70">张三</span></div>
                     <div>计费时间：<span class="readonly width70">2013年8月</span></div>
                     <div>总费用：<span class="readonly width70">34.78</span></div>
-                    <input type="button" value="返回" class="btn_add" onclick="location.href='bill_list.html';" />
+                    <input type="button" value="返回" class="btn_add" onclick="location.href='bill_list.jsp';" />
                 </div>  
                 <!--数据区域：用表格展示数据-->     
                 <div id="data">            
@@ -62,7 +62,7 @@
                             <td>1小时3分15秒</td>
                             <td>43.45</td>
                             <td>包 20 小时</td>                          
-                            <td><a href="bill_service_detail.html" title="业务详单">详单</a></td>
+                            <td><a href="bill_service_detail.jsp" title="业务详单">详单</a></td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -72,7 +72,7 @@
                             <td>3分15秒</td>
                             <td>3.45</td>
                             <td>包 20 小时</td>                          
-                            <td><a href="bill_service_detail.html" title="业务详单">详单</a></td>
+                            <td><a href="bill_service_detail.jsp" title="业务详单">详单</a></td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -82,7 +82,7 @@
                             <td>13分15秒</td>
                             <td>13.45</td>
                             <td>包 40 小时</td>                          
-                            <td><a href="bill_service_detail.html" title="业务详单">详单</a></td>
+                            <td><a href="bill_service_detail.jsp" title="业务详单">详单</a></td>
                         </tr>
                     </table>
                 </div>

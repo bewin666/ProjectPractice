@@ -37,16 +37,16 @@
         <!--导航区域开始-->
         <div id="navi">                        
             <ul id="menu">
-                <li><a href="../index.html" class="index_off"></a></li>
-                <li><a href="../role/role_list.html" class="role_off"></a></li>
-                <li><a href="../admin/admin_list.html" class="admin_off"></a></li>
-                <li><a href="../fee/fee_list.html" class="fee_off"></a></li>
-                <li><a href="../account/account_list.html" class="account_off"></a></li>
-                <li><a href="../service/service_list.html" class="service_on"></a></li>
-                <li><a href="../bill/bill_list.html" class="bill_off"></a></li>
-                <li><a href="../report/report_list.html" class="report_off"></a></li>
-                <li><a href="../user/user_info.html" class="information_off"></a></li>
-                <li><a href="../user/user_modi_pwd.html" class="password_off"></a></li>
+                <li><a href="../index.jsp" class="index_off"></a></li>
+                <li><a href="../role/role_list.jsp" class="role_off"></a></li>
+                <li><a href="../admin/admin_list.jsp" class="admin_off"></a></li>
+                <li><a href="../fee/fee_list.jsp" class="fee_off"></a></li>
+                <li><a href="../account/account_list.jsp" class="account_off"></a></li>
+                <li><a href="../service/service_list.jsp" class="service_on"></a></li>
+                <li><a href="../bill/bill_list.jsp" class="bill_off"></a></li>
+                <li><a href="../report/report_list.jsp" class="report_off"></a></li>
+                <li><a href="../user/user_info.jsp" class="information_off"></a></li>
+                <li><a href="../user/user_modi_pwd.jsp" class="password_off"></a></li>
             </ul>            
         </div>
         <!--导航区域结束-->
@@ -67,7 +67,7 @@
                         </select>
                     </div>
                     <div><input type="button" value="搜索" class="btn_search" /></div>
-                    <input type="button" value="增加" class="btn_add" onclick="location.href='service_add.html';" />
+                    <input type="button" value="增加" class="btn_add" onclick="location.href='service_add.jsp';" />
                 </div>  
                 <!--删除的操作提示-->
                 <div id="operate_result_info" class="operate_success">
@@ -89,7 +89,7 @@
                         <th class="width200"></th>
                     </tr>
                     <tr>
-                        <td><a href="service_detail.html" title="查看明细">1</a></td>
+                        <td><a href="service_detail.jsp" title="查看明细">1</a></td>
                         <td>101</td>
                         <td>230102197902137862</td>
                         <td>张三</td>
@@ -105,12 +105,12 @@
                         </td>                            
                         <td class="td_modi">
                             <input type="button" value="暂停" class="btn_pause" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="service_detail.html" title="查看明细">2</a></td>
+                        <td><a href="service_detail.jsp" title="查看明细">2</a></td>
                         <td>101</td>
                         <td>230102197902137862</td>
                         <td>张三</td>
@@ -126,12 +126,12 @@
                         </td>                            
                         <td class="td_modi">
                             <input type="button" value="开通" class="btn_start" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="service_detail.html" title="查看明细">3</a></td>
+                        <td><a href="service_detail.jsp" title="查看明细">3</a></td>
                         <td>101</td>
                         <td>230102197902137862</td>
                         <td>张三</td>
@@ -149,7 +149,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="service_detail.html" title="查看明细">4</a></td>
+                        <td><a href="service_detail.jsp" title="查看明细">4</a></td>
                         <td>102</td>
                         <td>230102197902111111</td>
                         <td>李四</td>
@@ -165,7 +165,7 @@
                         </td>                            
                         <td class="td_modi">
                             <input type="button" value="暂停" class="btn_pause" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>
@@ -186,7 +186,7 @@
                         </td>                            
                         <td class="td_modi">
                             <input type="button" value="暂停" class="btn_pause" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='service_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>                                                                

@@ -29,7 +29,7 @@
                 <tr>
                     <td></td>
                     <td class="login_button" colspan="2">
-                        <!-- <a href="index.html"><img src="images/login_btn.png" /></a> -->
+                        <!-- <a href="index.jsp"><img src="images/login_btn.png" /></a> -->
                         <input type="submit" style="background-image:url('images/login_btn.png')"></input>
                     </td>    
                     <td><span class="required">用户名或密码错误，请重试</span></td>                

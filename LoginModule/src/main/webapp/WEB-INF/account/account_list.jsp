@@ -28,16 +28,16 @@
         <!--导航区域开始-->
         <div id="navi">                        
             <ul id="menu">
-                <li><a href="../index.html" class="index_off"></a></li>
-                <li><a href="../role/role_list.html" class="role_off"></a></li>
-                <li><a href="../admin/admin_list.html" class="admin_off"></a></li>
-                <li><a href="../fee/fee_list.html" class="fee_off"></a></li>
-                <li><a href="../account/account_list.html" class="account_on"></a></li>
-                <li><a href="../service/service_list.html" class="service_off"></a></li>
-                <li><a href="../bill/bill_list.html" class="bill_off"></a></li>
-                <li><a href="../report/report_list.html" class="report_off"></a></li>
-                <li><a href="../user/user_info.html" class="information_off"></a></li>
-                <li><a href="../user/user_modi_pwd.html" class="password_off"></a></li>
+                <li><a href="../index.jsp" class="index_off"></a></li>
+                <li><a href="../role/role_list.jsp" class="role_off"></a></li>
+                <li><a href="../admin/admin_list.jsp" class="admin_off"></a></li>
+                <li><a href="../fee/fee_list.jsp" class="fee_off"></a></li>
+                <li><a href="../account/account_list.jsp" class="account_off"></a></li>
+                <li><a href="../service/service_list.jsp" class="service_off"></a></li>
+                <li><a href="../bill/bill_list.jsp" class="bill_on"></a></li>
+                <li><a href="../report/report_list.jsp" class="report_off"></a></li>
+                <li><a href="../user/user_info.jsp" class="information_off"></a></li>
+                <li><a href="../user/user_modi_pwd.jsp" class="password_off"></a></li>
             </ul>            
         </div>
         <!--导航区域结束-->
@@ -59,7 +59,7 @@
                         </select>
                     </div>
                     <div><input type="button" value="搜索" class="btn_search" /></div>
-                    <input type="button" value="增加" class="btn_add" onclick="location.href='account_add.html';" />
+                    <input type="button" value="增加" class="btn_add" onclick="location.href='account_add.jsp';" />
                 </div>  
                 <!--删除等的操作提示-->
                 <div id="operate_result_info" class="operate_success">
@@ -81,7 +81,7 @@
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td><a href="account_detail.html">方红芬</a></td>
+                        <td><a href="account_detail.jsp">方红芬</a></td>
                         <td>230102197902137862</td>
                         <td>helen</td>
                         <td>开通</td>
@@ -89,13 +89,13 @@
                         <td>2013-02-23 00:00:00</td>                            
                         <td class="td_modi">
                             <input type="button" value="暂停" class="btn_pause" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td><a href="account_detail.html">方红芬</a></td>
+                        <td><a href="account_detail.jsp">方红芬</a></td>
                         <td>230102197902137862</td>
                         <td>helen</td>
                         <td>暂停</td>
@@ -103,13 +103,13 @@
                         <td>2013-02-23 00:00:00</td>                            
                         <td class="td_modi">
                             <input type="button" value="开通" class="btn_start" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td><a href="account_detail.html">方红芬</a></td>
+                        <td><a href="account_detail.jsp">方红芬</a></td>
                         <td>230102197902137862</td>
                         <td>helen</td>
                         <td>删除</td>
@@ -120,7 +120,7 @@
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td><a href="account_detail.html">方红芬</a></td>
+                        <td><a href="account_detail.jsp">方红芬</a></td>
                         <td>230102197902137862</td>
                         <td>helen</td>
                         <td>开通</td>
@@ -128,13 +128,13 @@
                         <td>2013-02-23 00:00:00</td>                            
                         <td class="td_modi">
                             <input type="button" value="暂停" class="btn_pause" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td><a href="account_detail.html">方红芬</a></td>
+                        <td><a href="account_detail.jsp">方红芬</a></td>
                         <td>230102197902137862</td>
                         <td>helen</td>
                         <td>暂停</td>
@@ -142,7 +142,7 @@
                         <td>2013-02-23 00:00:00</td>                            
                         <td class="td_modi">
                             <input type="button" value="开通" class="btn_start" onclick="setState();" />
-                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.html';" />
+                            <input type="button" value="修改" class="btn_modify" onclick="location.href='account_modi.jsp';" />
                             <input type="button" value="删除" class="btn_delete" onclick="deleteAccount();" />
                         </td>
                     </tr>                    

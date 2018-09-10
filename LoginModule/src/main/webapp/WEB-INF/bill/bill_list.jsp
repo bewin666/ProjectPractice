@@ -36,16 +36,16 @@
         <!--导航区域开始-->
         <div id="navi">                        
             <ul id="menu">
-                <li><a href="../index.html" class="index_off"></a></li>
-                <li><a href="../role/role_list.html" class="role_off"></a></li>
-                <li><a href="../admin/admin_list.html" class="admin_off"></a></li>
-                <li><a href="../fee/fee_list.html" class="fee_off"></a></li>
-                <li><a href="../account/account_list.html" class="account_off"></a></li>
-                <li><a href="../service/service_list.html" class="service_off"></a></li>
-                <li><a href="../bill/bill_list.html" class="bill_on"></a></li>
-                <li><a href="../report/report_list.html" class="report_off"></a></li>
-                <li><a href="../user/user_info.html" class="information_off"></a></li>
-                <li><a href="../user/user_modi_pwd.html" class="password_off"></a></li>
+                <li><a href="../index.jsp" class="index_off"></a></li>
+                <li><a href="../role/role_list.jsp" class="role_off"></a></li>
+                <li><a href="../admin/admin_list.jsp" class="admin_off"></a></li>
+                <li><a href="../fee/fee_list.jsp" class="fee_off"></a></li>
+                <li><a href="../account/account_list.jsp" class="account_off"></a></li>
+                <li><a href="../service/service_list.jsp" class="service_off"></a></li>
+                <li><a href="../bill/bill_list.jsp" class="bill_on"></a></li>
+                <li><a href="../report/report_list.jsp" class="report_off"></a></li>
+                <li><a href="../user/user_info.jsp" class="information_off"></a></li>
+                <li><a href="../user/user_modi_pwd.jsp" class="password_off"></a></li>
             </ul>            
         </div>
         <!--导航区域结束-->
@@ -90,7 +90,7 @@
                         <td>2012年8月</td>
                         <td></td>
                         <td>未支付</td>                            
-                        <td><a href="bill_item.html" title="账单明细">明细</a></td>
+                        <td><a href="bill_item.jsp" title="账单明细">明细</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -101,7 +101,7 @@
                         <td>2012年9月</td>
                         <td>现金</td>
                         <td>已支付</td>                            
-                        <td><a href="bill_item.html" title="账单明细">明细</a></td>
+                        <td><a href="bill_item.jsp" title="账单明细">明细</a></td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -112,7 +112,7 @@
                         <td>2012年10月</td>
                         <td></td>
                         <td>未支付</td>                            
-                        <td><a href="bill_item.html" title="账单明细">明细</a></td>
+                        <td><a href="bill_item.jsp" title="账单明细">明细</a></td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -123,7 +123,7 @@
                         <td>2012年8月</td>
                         <td></td>
                         <td>未支付</td>                            
-                        <td><a href="bill_item.html" title="账单明细">明细</a></td>
+                        <td><a href="bill_item.jsp" title="账单明细">明细</a></td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -134,7 +134,7 @@
                         <td>2012年9月</td>
                         <td>现金</td>
                         <td>已支付</td>                            
-                        <td><a href="bill_item.html" title="账单明细">明细</a></td>
+                        <td><a href="bill_item.jsp" title="账单明细">明细</a></td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -145,7 +145,7 @@
                         <td>2012年10月</td>
                         <td></td>
                         <td>未支付</td>                            
-                        <td><a href="bill_item.html" title="账单明细">明细</a></td>
+                        <td><a href="bill_item.jsp" title="账单明细">明细</a></td>
                     </tr>
                 </table>
                 
